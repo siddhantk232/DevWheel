@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+header #navbar{
+  position: fixed;
+  background: #fff;
+}
+
+.container{
+  margin: auto;
+}
+
+
+#navbar h1{
+  color: #000;
+}
+#navbar nav ul li a{
+  text-decoration: none;
+  color: #333;
+}
+#navbar nav ul li a:hover{
+  color: #d3d3d3;
+}
+
+#navbar nav ul li{
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 20px;
+  display: inline;
+  list-style: none;
+  float: right;
+}
+#showcase img{
+  height: 70%;
+  margin-top: 100px;
+}
+ h2{
+  font-size: 50px;
+  margin-top: 150px;
+  margin-bottom: 5px;
+}
+#showcase p{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+button{
+  border: none;
+  color: #000;
+  background: #fff;
+  border: 1px solid #a0a0a0;
+  padding: 10px;
+  border-radius: 07px;
+}
+button:hover{
+  background: #d3d3d3;
+}
+#quote{
+  background: #f1f1f1;
+}
+#quote h4{
+  text-align: center;
+  font-size: 22px;
+  line-height: 2em;
+}
+#quote p{
+  text-align: center;
+  color: #6e7b88
+}
+#about p{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+#info h2{
+  font-size: 30px;
+}
+#contact{
+  background: url(../img/image3.png);
+  color: #fff;
+  height: 300px;
+}
+form{
+  margin-top: 30px;
+}
+form input[type="text"], form input[type="email"]{
+  width: 260px;
+}
+form input[type="submit"]{
+  border: none;
+  color: #000;
+  background: #fff;
+  border: 1px solid #a0a0a0;
+  padding: 10px;
+  border-radius: 07px;
+}
